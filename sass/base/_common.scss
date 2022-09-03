@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    background-color: var(--primary-white-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+::before, 
+::after {
+    box-sizing: border-box;
+}

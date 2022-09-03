@@ -1,0 +1,31 @@
+.clients {
+    padding-top: 94px;
+    padding-bottom: 94px;  
+}
+
+.clients__list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.clients__link {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: fill var(--duration) var(--timing-function), border var(--duration) var(--timing-function);
+    fill: #AFB1B8;
+    &:hover,
+    &:focus {
+    border: 1px solid var(--accent-color);
+    fill: var(--accent-color);
+}
+}
+.clients__link:hover .clients__icon,
+.clients__link:focus .clients__icon{
+    fill: var(--accent-color);
+}
